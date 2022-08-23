@@ -1,0 +1,83 @@
+/*
+Theme Name: Chariteam
+Theme URI: https://arasru.org/themes/chariteam/
+Author: Muhammad Ashraful Islam
+Author URI: https://arasru.com/
+Description: Our default theme for 2022 is designed to take full advantage of the flexibility of the block editor.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style.
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: asru
+made by Ashraful(Ar Asru)
+*/
+
+.navbar .navbar-nav .asru-nav .asru-link li {
+    margin-right: 30px;
+    padding: 25px 0;
+    font-weight: 500;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.asru-nav .asru-link li a {
+    color: #FFFFFF;
+    transition: .5s ease-in-out;
+}
+
+.asru-nav .asru-link li.menu-item a:hover,
+.asru-nav .asru-link li.current-menu-item a {
+    color: #FF6F0F;
+}
+
+li.btn-link h5 {
+    color: #fff;
+}
+
+.col-lg-3.col-md-6 li {
+    display: block;
+    margin-bottom: 5px;
+}
+
+a.wp-block-pages-list__item__link {
+    color: #787878;
+}
+
+a.wp-block-pages-list__item__link:hover {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.asru-nav ul ul {
+    display: none;
+    position: absolute;
+    top: 3em;
+    left: 0;
+    z-index: 9999;
+    background: #fff;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 6px;
+}
+
+.asru-nav ul li:hover > ul {
+    display: block;
+    transition: 0.3s
+}
+
+.asru-nav li {
+    position: relative;
+}
+
+.asru-nav ul.sub-menu li a {
+    color: #575A5D;
+}
+.asru-nav ul.sub-menu li {
+    padding-top: -20px;
+}
