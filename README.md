@@ -1,4 +1,4 @@
-# property-wp-theme
+# Chariteam-wp-theme
 
 HTML to WordPress Theme
 
